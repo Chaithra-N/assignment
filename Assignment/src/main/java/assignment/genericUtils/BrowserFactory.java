@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserFactory {
+	
 private  Map<String, WebDriver> drivers=new HashMap<String, WebDriver>();
 public  WebDriver getBrowser(String browser){
 	WebDriver driver=null;

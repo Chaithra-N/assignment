@@ -25,7 +25,7 @@ public class FindTermTest extends BaseClass {
 		fpage.getFind().click();
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		Assert.assertTrue(true, "test pass");
+		Assert.assertTrue(false, "test is failed");
 		
 		
 	}

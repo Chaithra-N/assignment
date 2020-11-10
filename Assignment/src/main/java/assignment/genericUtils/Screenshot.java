@@ -21,7 +21,7 @@ public class Screenshot {
 		TakesScreenshot sc=(TakesScreenshot) driver;
 		File src=sc.getScreenshotAs(OutputType.FILE);
 		
-		//File dest = new File(path+System.currentTimeMillis()+".jpg");
+	
 		File dest = new File(path);
 		try {
 			FileHandler.copy(src, dest);

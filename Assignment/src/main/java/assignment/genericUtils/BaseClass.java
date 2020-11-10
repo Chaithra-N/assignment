@@ -19,6 +19,7 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 public class BaseClass {
+	
 	public  WebDriver driver;
 
 	public static ExtentHtmlReporter htmlreporter;

@@ -11,6 +11,7 @@ public class FindTermPage {
 		PageFactory.initElements(driver, this);
 	}
 
+	
 	@FindBy(id="text1")
 	private WebElement searchTerm;
 	
