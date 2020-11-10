@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Find Term</title>
+	</head>
+		<body>
+			<label>Search Term</label></br>
+			<input type="text" id ="text1" value=""></input></br></br>
+			
+			<label>Search Context</label></br>
+			<input type="text" id ="text2" value=""></input></br></br>
+			
+			<button onclick="myalert()">Find</button>
+			  <script> 
+        			
+					function myalert() { 
+					 var tf1 =  
+                document.getElementById("text1").value;
+					var tf2 =  
+                document.getElementById("text2").value;
+            				alert(countString(tf2, tf1)); 
+        			} 
+
+				function countString(str, letter) {
+   				 let count = 0;
+
+    				if(letter.length<=1){
+   				 for (let i = 0; i < str.length; i++) {
+
+       					
+
+        					if (str.charAt(i) == letter) {
+          					  count += 1;
+       									 	}
+   									 }
+						}
+					else{
+						var res=str.split(" ");
+						for(let i=0;i<str.length;i++){
+						
+							if(res[i]==letter){
+							count += 1 ;	
+							}
+						}
+						}
+				
+    					return count;
+			}
+    			</script>
+
+		</body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.interview.searchtext.FindTermTest">
+        <methods>
+          <include name="openApp"/>
+          <include name="setUpReporter"/>
+          <include name="findTexttest"/>
+          <include name="saveReport"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.interview.searchtext.FindTermTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
